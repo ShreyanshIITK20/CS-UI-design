@@ -1,4 +1,14 @@
 body {
-    padding: 7% 15%;
-    background-color: black;
+    padding: 0% 15%;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+    margin: 5px;
 }
