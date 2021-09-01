@@ -74,3 +74,47 @@ body {
     background-color: black;
     opacity: 0.7;;
 }
+
+/* features section */
+.features{
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.introline,.highlightedwords{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(81, 81, 230);
+}
+
+.highlightedwords{
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: #ff0066;
+}
+
+.human-heart {
+    animation: .8s infinite beatHeart;
+    color: #ff0066;
+  }
+  
+  @keyframes beatHeart {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  
