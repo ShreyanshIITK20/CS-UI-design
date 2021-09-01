@@ -1,3 +1,8 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0px;
     padding: 1% 10%;
@@ -132,6 +137,12 @@ hr {
 
 .col-lg-4{
     padding: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.col-lg-4:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
   
 .light{
@@ -158,3 +169,28 @@ hr {
 }
 
 
+/* social media */
+.social{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.social-media{
+    height: 400px;
+    overflow-y: scroll;
+    padding: 0px;
+    margin: 20px;
+    width: 30%;
+}
+
+/* for hiding scroll bar */
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
