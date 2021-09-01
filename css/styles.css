@@ -84,13 +84,13 @@ body {
 .introline,.highlightedwords{
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgb(81, 81, 230);
 }
 
 .highlightedwords{
     font-weight: 900;
-    font-size: 3.2rem;
+    font-size: 3rem;
     color: #ff0066;
 }
 
@@ -99,7 +99,7 @@ body {
     color: #ff0066;
   }
   
-  @keyframes beatHeart {
+@keyframes beatHeart {
     0% {
       transform: scale(1);
     }
@@ -117,4 +117,27 @@ body {
     }
   }
 
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    border-color: rgb(109, 106, 106);
+    border-width: 10px;
+    background-color:white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}  
+
+.col-lg-4{
+    padding: 50px;
+}
   
+.light{
+    background-color: #ADEFD1FF;
+}
+
+.dark{
+    background-color: #00203FFF;
+}
