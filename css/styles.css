@@ -136,8 +136,25 @@ hr {
   
 .light{
     background-color: #ADEFD1FF;
+    color: #00203FFF;
 }
 
 .dark{
     background-color: #00203FFF;
+    color: #ADEFD1FF;
 }
+
+/*Features text*/
+.texthead{
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.textualmatter{
+    font-family: "Ubuntu";
+    font-weight: 400;
+    height:75px;
+}
+
+
