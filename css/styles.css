@@ -288,7 +288,12 @@ footer p {
     margin: 10px 0;
 }
 
+/* end buttons */
 .endbuttons{
     margin-bottom: 5%;
     padding: 0% 10%;
+}
+
+.buttonmatter{
+    padding: 10%;
 }
