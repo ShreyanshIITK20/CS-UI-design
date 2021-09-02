@@ -427,16 +427,21 @@
         <hr>
       </div>
       <div class="endbuttons">
+
+        <!--Address part-->
         <div class="row">
           <div class="col-md-4 text-center" style="margin-bottom: 5px;">
-            <button class="btn btn-outline-warning btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAddress">Address <i class="fas fa-map-marked-alt"></i></button>
+            <button class="btn btn-info btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAddress"><span style="font-weight: 500;color: white;">Address </span><i class="fas fa-map-marked-alt" style="color: white;"></i></button>
             <div class="collapse" id="collapseAddress">
               <div class="card card-body buttonmatter" style="text-align: left;">
-                Counselling Service
-                <br>House No. 503
+                <img src="images/house.png" width="20%">
+                <p style="text-align: left;">
+                  Counselling Service
+                <br>House No. 503 
                 <br>Type V
                 <br>IIT Kanpur
                 <br>208016 <br><br>
+                </p>
                 <p>
                   <h5>Office Timings</h5>
                   11:00 AM - 7:00 PM (Mon to Fri) 
@@ -453,8 +458,10 @@
               </div>
             </div>
           </div>
+
+          <!--chatbot-->
           <div class="col-md-4 text-center" style="margin-bottom: 5px;">
-            <button class="btn btn-outline-warning btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBot">ChatBot <i class="fas fa-headset"></i></button>
+            <button class="btn btn-info btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBot"><span style="font-weight: 500;color: white;">Chatbot </span><i class="fas fa-headset" style="color: white;"></i></button>
             <div class="collapse" id="collapseBot">
               <div class="card card-body buttonmatter">
                 <img src="images/chatbot.png" width="auto">
@@ -462,11 +469,38 @@
               </div>
             </div>
           </div>
+
+          <!--suggessions-->
           <div class="col-md-4 text-center" style="margin-bottom: 5px;">
-            <button class="btn btn-outline-warning btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSuggession">Suggessions <i class="fas fa-pen-nib"></i></button>
+            <button class="btn btn-info btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSuggession"><span style="font-weight: 500;color: white;">Suggessions </span><i class="fas fa-pen-nib" style="color: white;"></i></button>
             <div class="collapse" id="collapseSuggession">
               <div class="card card-body buttonmatter">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <i class="fas fa-diagnoses fa-9x" style="color: yellowgreen;"></i><br><br>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                  <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
+                  <span class="input-group-text" id="basic-addon2">@iitk.ac.in</span>
+                </div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Batch" aria-label="Text input with dropdown button">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select</button>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Y20</a></li>
+                    <li><a class="dropdown-item" href="#">Y19</a></li>
+                    <li><a class="dropdown-item" href="#">Y18</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Older</a></li>
+                  </ul>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="fas fa-comment"></i></span>
+                  <textarea class="form-control" aria-label="With textarea">Comments</textarea>
+                </div>
+                <br><br>
+                <button type="button" class="btn btn-success">Success <i class="far fa-paper-plane"></i></button>
               </div>
             </div>
           </div>
