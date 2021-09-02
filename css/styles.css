@@ -3,10 +3,30 @@ html {
     overflow-x: hidden;
 }
 
-body {
+.mainbody {
     margin: 0px;
-    padding: 1% 10%;
+    padding: 0% 10%;
 }
+
+/* header */
+.socialmedia{
+    padding: 5px 15px 5px 15px;
+}
+.mediaicons{
+    text-align: right;
+    float: right;
+}
+.contactinfo{
+    padding: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 992px){
+    .socialmedia{
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+}
+
 
 /* Navbar */
 .navbar-brand{
@@ -83,7 +103,7 @@ body {
 /* features section */
 .features{
     text-align: center;
-    padding: 5% 0%;
+    padding: 5% 10%;
 }
 
 .introline,.highlightedwords{
@@ -175,6 +195,7 @@ hr {
     text-align: center;
     overflow: hidden;
     margin: 0px;
+    padding: 0% 10%;
 }
 
 .social-media{
@@ -185,6 +206,13 @@ hr {
     width: 30%;
 }
 
+@media screen and (max-width: 992px){
+    .social-media{
+        width: 90%;
+        align-items: center;
+    }
+}
+
 /* for hiding scroll bar */
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
@@ -193,4 +221,17 @@ hr {
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
+}
+
+.socialinfo{
+    text-align: center;
+    font-family: "Ubuntu";
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top: 20px;
+    color:rgb(81, 81, 230);
+}
+
+.socialinfo i{
+    color:#ff0066 ;
 }
