@@ -15,6 +15,7 @@ html {
 .mediaicons{
     text-align: right;
     float: right;
+    overflow: hidden;
 }
 .contactinfo{
     padding: 5px 5px 5px 5px;
@@ -238,8 +239,7 @@ hr {
 
 @media screen and (max-width: 992px){
     .social-media{
-        width: 90%;
-        align-items: center;
+        width: 95%;
     }
 }
 
@@ -296,4 +296,7 @@ footer p {
 
 .buttonmatter{
     padding: 10%;
+}
+.buttonboxes{
+    margin-bottom: 10%;
 }
