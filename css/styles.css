@@ -55,7 +55,7 @@ html {
     padding-top: 10%;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3.8rem;
     padding-right: 7px;
 }
 
@@ -89,6 +89,14 @@ html {
     margin-right: 0%;
 }
 
+sup{
+    color:rgb(81, 81, 230);
+}
+.touch{
+    color: rgb(81, 81, 230);
+    font-size: 4.2rem;
+}
+
 @media screen and (max-width: 992px){
     .taglineinfo,.taglinetxt,.tagline{
         text-align: center;
@@ -98,6 +106,23 @@ html {
 .carousel-caption{
     background-color: black;
     opacity: 0.7;;
+}
+
+.carousalquote{
+    font-family: 'Ubuntu';
+    font-size: 1.3rem;
+}
+
+.author{
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    color: burlywood;
+    text-align: center;
+}
+
+.quotationmark{
+    padding: 5px;
+    margin: 5px;
 }
 
 /* features section */
