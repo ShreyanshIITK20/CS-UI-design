@@ -105,7 +105,7 @@ sup{
 
 .carousel-caption{
     background-color: black;
-    opacity: 0.7;;
+    opacity: 0.7;
 }
 
 .carousalquote{
@@ -221,6 +221,7 @@ hr {
     overflow: hidden;
     margin: 0px;
     padding: 0% 10%;
+    margin-bottom: 2%;
 }
 
 .social-media{
@@ -229,6 +230,10 @@ hr {
     padding: 0px;
     margin: 20px;
     width: 30%;
+}
+
+.socialinfo hr{
+    width: 10%;
 }
 
 @media screen and (max-width: 992px){
@@ -252,11 +257,38 @@ hr {
     text-align: center;
     font-family: "Ubuntu";
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding-top: 20px;
     color:rgb(81, 81, 230);
 }
 
 .socialinfo i{
     color:#ff0066 ;
+}
+
+.social h3{
+    padding: 15px 0px;
+    color: grey;
+}
+
+/* Footer section */
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.endbuttons{
+    margin-bottom: 5%;
+    padding: 0% 10%;
 }
