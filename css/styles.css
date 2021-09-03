@@ -3,9 +3,17 @@ html {
     overflow-x: hidden;
 }
 
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .mainbody {
     margin: 0px;
     padding: 0% 10%;
+}
+
+header{
+    margin-bottom: -1px;
 }
 
 /* Navbar */
@@ -81,6 +89,10 @@ sup{
     .touchbox{
         display:inline-flex;
         text-align: center;
+    }
+    .headimg{
+        position: relative;
+        z-index: 10;
     }
 }
 
@@ -260,19 +272,20 @@ hr {
 
 /* Footer section */
 footer {
-    background-color: #222;
+    background-color: #005AA9;
     color: #fff;
-    font-size: 14px;
+    font-size: 1em;
+    /* position: fixed; */
     bottom: 0;
-    position: fixed;
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 999;
+    padding: 0.1%;
+    /* z-index: 999; */
 }
 
 footer p {
-    margin: 10px 0;
+    margin-top: 1rem;
 }
 
 /* end buttons */
@@ -303,8 +316,7 @@ footer p {
 }
 
 .endbuttons{
-    margin:10%;
-    margin-top: 5%;
+    margin:5% 10% 0 10%;
     padding: 0% 10%;
 }
 
