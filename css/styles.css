@@ -8,27 +8,6 @@ html {
     padding: 0% 10%;
 }
 
-/* header */
-.socialmedia{
-    padding: 5px 15px 5px 15px;
-}
-.mediaicons{
-    text-align: right;
-    float: right;
-    overflow: hidden;
-}
-.contactinfo{
-    padding: 5px 5px 5px 5px;
-}
-
-@media screen and (max-width: 992px){
-    .socialmedia{
-        margin-top: 10px;
-        margin-right: 40px;
-    }
-}
-
-
 /* Navbar */
 .navbar-brand{
     font-family: 'Montserrat';
@@ -290,13 +269,14 @@ footer p {
 
 /* end buttons */
 .endbuttons{
-    margin-bottom: 5%;
+    margin:10%;
+    margin-top: 5%;
     padding: 0% 10%;
 }
 
 .buttonmatter{
     padding: 10%;
 }
-.buttonboxes{
+/* .buttonboxes{
     margin-bottom: 10%;
-}
+} */

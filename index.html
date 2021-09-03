@@ -22,33 +22,27 @@
 
 <body>
   <header class="p-3 bg-dark text-white">
-    <div class="row">
-      <div class="col-md-6">
-        <span class="contactinfo">
-          +91 512 2597784
-        </span> <span>|</span>
-        <span class="contactinfo">
-          head_cs@iitk.ac.in
-        </span> <span>|</span>
-        <span class="contactinfo">
-          counselor@iitk.ac.in
-        </span>
-      </div>
-      <div class="col-md-6">
-        <span class="mediaicons">
-          <i class="fab fa-facebook socialmedia" data-toggle="popover" title="Like on Facebook" data-content="Like on Facebook"></i>
-          <i class="fab fa-twitter socialmedia" data-toggle="popover" title="Follow on Twitter" data-content="Follow on Twitter"></i>
-          <i class="fab fa-instagram socialmedia" data-toggle="popover" title="Follow on Instagram" data-content="Follow on Instagram "></i>
-          <i class="fab fa-youtube socialmedia" data-toggle="popover" title="Watch us on Youtube" data-content="Watch us on Youtube "></i>
-          <i class="fab fa-medium socialmedia" data-toggle="popover" title="Read about us on Medium" data-content="Read about us on Medium"></i>
-        </span>
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-white"><i class="fab fa-facebook socialmedia" data-toggle="popover" title="Like on Facebook" data-content="Like on Facebook"></i></a></li>
+          <li><a href="#" class="nav-link px-2 text-white"><i class="fab fa-twitter socialmedia" data-toggle="popover" title="Follow on Twitter" data-content="Follow on Twitter"></i></a></li>
+          <li><a href="#" class="nav-link px-2 text-white"><i class="fab fa-instagram socialmedia" data-toggle="popover" title="Follow on Instagram" data-content="Follow on Instagram "></i></a></li>
+          <li><a href="#" class="nav-link px-2 text-white"><i class="fab fa-youtube socialmedia" data-toggle="popover" title="Watch us on Youtube" data-content="Watch us on Youtube "></i></a></li>
+          <li><a href="#" class="nav-link px-2 text-white"><i class="fab fa-medium socialmedia" data-toggle="popover" title="Read about us on Medium" data-content="Read about us on Medium"></i></a></li>
+        </ul>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Urgent call <i class="fas fa-phone-alt"></i></button>
+          <button type="button" class="btn btn-warning">Urgent mail <i class="fas fa-envelope"></i></button>
+        </div>
       </div>
     </div>
   </header>
   
   <div class="mainbody">
 
-  <!-- navigation bar -->
+    <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="images/logo.png" height="45px"> CS-IITK</a>
@@ -428,6 +422,8 @@
         Your own's section <i class="fas fa-address-card"></i>
         <hr>
       </div>
+      
+      
       <div class="endbuttons">
 
         <!--Address part-->
@@ -436,14 +432,23 @@
             <button class="btn btn-info btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAddress"><span style="font-weight: 500;color: white;">Address </span><i class="fas fa-map-marked-alt" style="color: white;"></i></button>
             <div class="collapse" id="collapseAddress">
               <div class="card card-body buttonmatter" style="text-align: left;">
-                <img src="images/house.png" width="20%">
-                <p style="text-align: left;">
-                  Counselling Service
-                <br>House No. 503 
-                <br>Type V
-                <br>IIT Kanpur
-                <br>208016 <br><br>
-                </p>
+                
+                <div class="row">
+                  <div class="col-md-8">
+                    <p style="text-align: left;">
+                      Counselling Service
+                    <br>House No. 503 
+                    <br>Type V
+                    <br>IIT Kanpur
+                    <br>208016 <br><br>
+                    </p>
+                    <p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="images/house.png" width="75%">
+                  </div>
+                </div>
+
                 <p>
                   <h5>Office Timings</h5>
                   11:00 AM - 7:00 PM (Mon to Fri) 
@@ -509,15 +514,15 @@
         </div>
       </div>
     <!--Closing main body-->  
-    </div>                              
-    <footer>
+  </div>                              
+  <footer>
       <p>
         Developed by Shreyansh Agarwal
       </p>
-    </footer>
-      <!-- Bootstrap JS -->
-      <script src="app.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
