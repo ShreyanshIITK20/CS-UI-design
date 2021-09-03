@@ -77,6 +77,13 @@ sup{
     font-size: 4.2rem;
 }
 
+@media screen and (max-width: 1500px){
+    .touchbox{
+        display:inline-flex;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 992px){
     .taglineinfo,.taglinetxt,.tagline{
         text-align: center;
