@@ -244,7 +244,8 @@ hr {
     font-family: "Ubuntu";
     font-weight: 900;
     font-size: 2.8rem;
-    padding-top: 20px;
+    padding: 0% 10% 0% 10%;
+    margin-top: 5%;
     color:rgb(81, 81, 230);
 }
 
@@ -275,6 +276,32 @@ footer p {
 }
 
 /* end buttons */
+.specialbutton {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.specialbutton:active {
+	transform: scale(0.95);
+}
+
+.specialbutton:focus {
+	outline: none;
+}
+
+.specialbutton.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
 .endbuttons{
     margin:10%;
     margin-top: 5%;
@@ -284,6 +311,3 @@ footer p {
 .buttonmatter{
     padding: 10%;
 }
-/* .buttonboxes{
-    margin-bottom: 10%;
-} */
